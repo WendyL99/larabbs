@@ -12,6 +12,8 @@
   <title>@yield('title', 'LaraBBS') - Laravel 进阶教程</title>
 
   <link href="{{ mix('css/app.css') }}" rel="stylesheet"></link>
+
+  @yield('styles')
 </head>
 
 <body>
@@ -28,5 +30,7 @@
 
   <!-- Scripts -->
   <script src="{{ mix('js/app.js') }}"></script>
+
+  @yield('scripts')
 </body>
 </html>
